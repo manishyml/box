@@ -1,0 +1,26 @@
+.input_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px 30px;
+  border: 1px solid black;
+}
+.input_text {
+  text-align: left;
+  margin-bottom: 20px;
+  color: red;
+  font-weight: bold;
+}
+.input_container .input_parent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 12px;
+}
+.input_container .input_parent .YCO,
+.input_container .input_parent .XCO,
+.input_container .input_parent .Width,
+.input_container .input_parent .Height {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}

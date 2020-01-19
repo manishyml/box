@@ -1,0 +1,39 @@
+.preview_parent {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 30px;
+}
+.preview_parent .preview_text {
+  text-align: left;
+  margin-bottom: 20px;
+  color: red;
+  font-weight: bold;
+}
+.preview_parent .preview_outer_box {
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+}
+.preview_parent .preview_outer_box .preview_inner_box {
+  border: 1px solid red;
+  position: absolute;
+  box-sizing: border-box;
+
+  bottom: 0;
+  left: 0;
+}
+.center_point_parent {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.center_point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
